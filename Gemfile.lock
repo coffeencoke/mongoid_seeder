@@ -1,0 +1,39 @@
+PATH
+  remote: .
+  specs:
+    mongoid_seeder (0.0.1)
+      mongoid (~> 3.1)
+      mongoid-shell (= 0.2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (3.2.14)
+      activesupport (= 3.2.14)
+      builder (~> 3.0.0)
+    activesupport (3.2.14)
+      i18n (~> 0.6, >= 0.6.4)
+      multi_json (~> 1.0)
+    builder (3.0.4)
+    i18n (0.6.5)
+    mongoid (3.1.5)
+      activemodel (~> 3.2)
+      moped (~> 1.4)
+      origin (~> 1.0)
+      tzinfo (~> 0.3.29)
+    mongoid-shell (0.2.0)
+      i18n
+      mongoid
+    moped (1.5.1)
+    multi_json (1.8.0)
+    origin (1.1.0)
+    rake (10.1.0)
+    tzinfo (0.3.37)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.3)
+  mongoid_seeder!
+  rake
