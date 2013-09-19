@@ -21,4 +21,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'mongoid', "~> 3.1"
   spec.add_dependency 'mongoid-shell', "0.2.0"
+  spec.add_dependency 'mixlib-config', '~> 1.1'
 end

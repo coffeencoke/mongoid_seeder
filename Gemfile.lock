@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     mongoid_seeder (0.0.1)
+      mixlib-config (~> 1.1)
       mongoid (~> 3.1)
       mongoid-shell (= 0.2.0)
 
@@ -16,6 +17,7 @@ GEM
       multi_json (~> 1.0)
     builder (3.0.4)
     i18n (0.6.5)
+    mixlib-config (1.1.2)
     mongoid (3.1.5)
       activemodel (~> 3.2)
       moped (~> 1.4)
