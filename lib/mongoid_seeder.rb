@@ -34,7 +34,7 @@ module MongoidSeeder
   end
 
   def self.db_path
-    File.expand_path("db/seed_data", Dir.pwd)
+    Config.seed_dir
   end
 
   def self.dump
