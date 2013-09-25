@@ -175,7 +175,7 @@ end
 
 ## Owners
 
-Developed by @coffeencoke, @dcameronmauch, devs on a team at [Asynchrony](http://asynchrony.com).
+Developed by [@coffeencoke](http://github.com/coffeencoke), [@dcameronmauch](http://github.com/dcameronmauch), devs on a team at [Asynchrony](http://asynchrony.com).
 
 ## Contributing
 
