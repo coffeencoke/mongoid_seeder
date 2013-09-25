@@ -1,6 +1,6 @@
 # MongoidSeeder
 
-TODO: Write a gem description
+Provides basic behavior to seed data while using Mongoid.
 
 ## Installation
 
