@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mongoid_seeder (0.0.3)
+    mongoid_seeder (0.0.4)
       mixlib-config (~> 1.1)
       mongoid (~> 3.1)
       mongoid-shell (= 0.2.0)
@@ -27,7 +27,7 @@ GEM
       i18n
       mongoid
     moped (1.5.1)
-    multi_json (1.8.0)
+    multi_json (1.8.1)
     origin (1.1.0)
     rake (10.1.0)
     tzinfo (0.3.37)
