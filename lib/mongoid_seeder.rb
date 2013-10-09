@@ -47,6 +47,6 @@ module MongoidSeeder
   end
 
   def self.after_tests
-    Mongoid.session(:default).collections.select{|a| Config.condition_to_drop_collection.call(a) }.each(&:drop)
+    Mongoid.session(:default).collections.select{|a| Config.condition_to_drop_collection.call(a) }.each{|a| a.where.remove_all }
   end
 end
